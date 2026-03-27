@@ -9,7 +9,7 @@ jobs:
   
    - name: Run my own container action
      id: my-action
-     uses: ./
+     uses: ZynTr4x/CustomAction@v1.0.0
      with:
        who-to-greet: '@zyntr4x'
   
