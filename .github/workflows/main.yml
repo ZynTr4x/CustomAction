@@ -5,7 +5,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: Checkout repo to use the action locally
-     uses: actions/checkout@6.0.2
+     uses: actions/checkout@v6.0.2
   
    - name: Run my own container action
      id: my-action
